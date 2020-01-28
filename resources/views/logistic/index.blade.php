@@ -77,7 +77,8 @@
         <td>{{$logistic-> email}}</td>
         <td>
             <a href="/logistic/{{$logistic->id}}/edit" class="btn btn-warning btn-sm">Edit</a>
-            <a href="/logistic/{{$logistic->id}}/delete" class="btn btn-danger btn-sm">Delete</a>
+            <a href="/logistic/{{$logistic->id}}/delete" class="btn btn-danger btn-sm" 
+            onclick="return confirm('Are sure want to delete {{$logistic->logistic_name}} ?')">Delete</a>
         </td>
     </tr>
     @endforeach

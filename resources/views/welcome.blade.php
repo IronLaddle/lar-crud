@@ -119,6 +119,7 @@
 	<div class="container">
         <img src="https://oikos.digital/wp-content/uploads/2017/02/logo-laravel-1.png">
         <h1>Task: Please create simple web based application using LARAVEL</h1>	
+            Click here <a href="/home">Home</a> 
 	</div>
 </section>
     </body>

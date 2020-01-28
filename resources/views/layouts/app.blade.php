@@ -19,6 +19,7 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://mytrackcdn.com/css/app.css">
 </head>
 <body>
     <div id="app">
@@ -82,5 +83,12 @@
             @yield('content')
         </main>
     </div>
+<script src="https://mytrackcdn.com/js/app.js"></script>
+<script type="text/javascript">
+$('[data-try-sample]').click(function(){
+	$('[name="tracking_no"]').val($(this).data('try-sample'));
+	return false;
+});
+</script>
 </body>
 </html>
